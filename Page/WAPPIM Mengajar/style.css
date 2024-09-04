@@ -184,6 +184,10 @@ button:hover {
     border-color: #929292aa;
     transition: box-shadow 0.5s ease-in-out; /
 }
+.container h1 {
+    justify-self: center;
+    color: #F3F7EC;
+}
 
 .container:hover {
     box-shadow: 0px 1px 16px 0.5px #ffffff;

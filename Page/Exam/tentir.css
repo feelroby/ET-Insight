@@ -4,6 +4,8 @@ body {
     background-color: #003848;
     box-sizing: border-box;
     display: grid;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 nav {
@@ -22,7 +24,6 @@ nav {
     justify-self: center;
     z-index: 1000;
 }
-
 
 .container-logo {
     display: flex;
@@ -219,6 +220,7 @@ nav p {
 
 .section-3 {
     padding: 24px;
+    box-sizing: border-box;
 }
 
 .box {
@@ -232,6 +234,8 @@ nav p {
     padding: 26px;
     padding-top: 10px;
     transition: box-shadow 0.3s ease-in-out;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .box:hover {
@@ -281,36 +285,81 @@ td button:hover {
 
 @media (max-width:539px) {
     table {
-        font-size: 0.7rem;
+        font-size: 1rem;
+        margin: 0;
     }
     td button {
         font-size: 0.7rem;
+    }
+
+    .box {padding: 5px;
+        padding-bottom: 15px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    td button {
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
 }
 
 @media (max-width:480px) {
     table {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     td button {
         font-size: 0.7rem;
+        padding-top:6px ;
+        padding-bottom: 6px;
     }
+    
+    .box {padding: 5px;
+        padding-bottom: 15px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+    
 }
 
 @media (max-width:430px) {
     table {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     td button {
         font-size: 0.6rem;
+        padding-top:10px ;
+        padding-bottom: 10px;
+    }
+    
+    .box {padding: 5px;
+        padding-bottom: 15px;
+    }
+    
+    
+    th, td {
+        padding: 3px;
     }
 }
 
 @media (max-width:389px) {
     table {
-        font-size: 0.5rem;
+        font-size: 0.74rem;
     }
     td button {
         font-size: 0.5rem;
+        padding-top:10px ;
+        padding-bottom: 10px;
+    }
+    .box {padding: 5px;
+        padding-bottom: 10px;
+    }
+    
+    th, td {
+        padding: 3px;
     }
 }
