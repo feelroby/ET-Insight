@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function() {
             e.preventDefault();
 
             const targetElement = document.querySelector(this.getAttribute('href'));
-            const offsetPosition = targetElement.offsetTop - 50; // Sesuaikan dengan jarak yang diinginkan
+            const offsetPosition = targetElement.offsetTop - 100; // Sesuaikan dengan jarak yang diinginkan
 
             window.scrollTo({
                 top: offsetPosition,
