@@ -74,15 +74,21 @@ nav p {
 }
 
 @media (max-width:480px) {
+    
+    .section-1 h1 {
+        font-size: 2rem;
+    }
+    
     .section-1 p1 {
         width: 100%;
+        font-size: 1rem;
     }
 
     .section-1 {
         justify-content:left;
         align-items: start;
         text-align: left;
-        margin-top: 0;
+        margin-top: 2rem;
     }
 
     .section-1 h1 {
@@ -286,7 +292,7 @@ td button:hover {
 
 @media (max-width:539px) {
     table {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin: 0;
     }
     td button {

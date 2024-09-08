@@ -75,15 +75,21 @@ nav p {
 }
 
 @media (max-width:480px) {
+    .section-1 h1 {
+        font-size: 2rem;
+        text-align: left;
+    }
+    
     .section-1 p1 {
-        width: 100%;
+        width: 80%;
+        font-size: 1rem;
     }
 
     .section-1 {
         justify-content:left;
         align-items: start;
         text-align: left;
-        margin-top: 0;
+        margin-top: 3rem;
     }
 
     .section-1 h1 {
@@ -310,20 +316,20 @@ td button:hover {
 
 @media (max-width:480px) {
     table {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     td button {
         font-size: 0.7rem;
-        padding-top:6px ;
-        padding-bottom: 6px;
+        padding-top:4px ;
+        padding-bottom: 4px;
     }
     
-    .box {padding: 5px;
+    .box {padding: 4px;
         padding-bottom: 24px;
     }
 
     th, td {
-        padding: 5px;
+        padding: 4px;
     }
     
 }
@@ -348,7 +354,7 @@ td button:hover {
     }
 }
 
-@media (max-width:389px) {
+@media (max-width:391px) {
     table {
         font-size: 0.74rem;
     }
