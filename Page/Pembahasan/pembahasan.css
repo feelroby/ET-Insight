@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #003848;
+    background: linear-gradient(243deg, rgba(0,44,56,1) 0%, rgba(81,104,110,1) 29%, rgba(0,92,111,1) 100%);
     box-sizing: border-box;
     display: grid;
 }
@@ -24,9 +24,9 @@ nav {
     justify-content: start;
     gap: 100px;
     padding-left: 24px;
-    background-color: #002c38;
+    background-color: #05394a;
     border-radius: 50px;
-    box-shadow: 0px 0px 18px 2px #F3F7EC;
+    box-shadow: 0px 0px 2px #F3F7EC;
     top: 30px;
     position: sticky;
     justify-self: center;
@@ -180,3 +180,8 @@ nav {
     }
 }
 
+
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #003848;
+    background: linear-gradient(243deg, rgba(0,44,56,1) 0%, rgba(81,104,110,1) 29%, rgba(0,92,111,1) 100%);
     box-sizing: border-box;
     display: grid;
     width: 100%;
@@ -16,9 +16,9 @@ nav {
     justify-content: start;
     gap: 100px;
     padding-left: 24px;
-    background-color: #002c38;
+    background-color: #05394a;
     border-radius: 50px;
-    box-shadow: 0px 0px 18px 2px #F3F7EC;
+    box-shadow: 0px 0px 2px #F3F7EC;
     top: 30px;
     position: sticky;
     justify-self: center;
@@ -64,6 +64,7 @@ nav p {
 .section-1 h1 {
     text-align: center;
     margin-bottom: 10px;
+    width: 80%;
 }
 
 .section-1 p1 {
@@ -140,13 +141,13 @@ nav p {
     position: relative; /* Untuk efek saat hover */
     border-radius: 8px; /* Sudut melengkung */
     transition: transform 0.3s, box-shadow 0.3s ease-in-out; /* Transisi halus */
-    box-shadow: 0 4px 8px 3px rgba(255, 255, 255, 0.441); /* Bayangan */
+   
 }
 
 
 .item-gallery:hover {
     transform: translateY(-5px); /* Efek mengangkat saat hover */
-    box-shadow: 3px 3px 23px 6px rgba(255, 255, 255, 0.795); /* Bayangan lebih besar */
+ /* Bayangan lebih besar */
 }
 
 .item-gallery img {
@@ -362,4 +363,9 @@ td button:hover {
     th, td {
         padding: 3px;
     }
+}
+
+
+* {
+    font-family: 'Quicksand', sans-serif;
 }

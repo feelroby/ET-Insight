@@ -73,6 +73,7 @@ nav {
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
+    width: 80%;
 }
 
 @media (max-width:480px) {
