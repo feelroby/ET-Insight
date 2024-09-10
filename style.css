@@ -167,6 +167,14 @@ nav a.active {
     cursor: pointer;
 }
 
+
+.wappim-hub a {
+    color: #ff7253;
+    font-weight: 700;
+}
+
+
+
 /* ... Responsive nav... */
 
 @media (max-width: 900px) {
@@ -207,6 +215,10 @@ nav a.active {
 
     .close-icon {
         display: block; /* Tampilkan ikon silang di layar kecil */
+    }
+
+    #wappim-hub {
+        color: #C5705D;
     }
 
 }
