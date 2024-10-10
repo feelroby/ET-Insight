@@ -15,9 +15,9 @@ function getComputerChoice () {
 
 function getResult (input, comp) {
     if ( input == comp ) return 'SERI!'
-    if ( input == 'batu' ) return ( comp == 'gunting' ) ? 'MENANG!':'KALAH!'
-    if ( input == 'gunting' ) return ( comp == 'kertas' ) ? 'MENANG!':'KALAH!'
-    if ( input == 'kertas' ) return ( comp == 'batu' ) ? 'MENANG!':'KALAH!'
+    if ( input == 'batu' ) return ( comp == 'gunting' ) ? 'KALAH!':'MENANG!'
+    if ( input == 'gunting' ) return ( comp == 'kertas' ) ? 'KALAH!':'MENANG!'
+    if ( input == 'kertas' ) return ( comp == 'gunting' ) ? 'MENANG!' : 'KALAH!'
 }
 
 
